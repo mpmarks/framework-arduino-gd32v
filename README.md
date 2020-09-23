@@ -3,6 +3,7 @@ I created this enhanced Arduino Framework for the Longan Nano module. The module
 Notes:
 1. For USB Serial to work the CPU clock must be set to 96 MHz instead of the the default 108 MHz
 2. To use this framework instead of the default in platformio you add the following to platformio.ini:
+
   platform_packages = framework-arduino-gd32v @ https://github.com/mpmarks/framework-arduino-gd32v.git
   
   
